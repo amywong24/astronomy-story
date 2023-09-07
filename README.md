@@ -1,3 +1,3 @@
 # astronomystory
-CIS 3610 Lab Engagement #2
+CIS 3610 Lab Engagement
 Space Exploration and Astronomy Story
