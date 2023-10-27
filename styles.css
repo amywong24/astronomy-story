@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+header img {
+    width: 2000px;
+    height: 300px;
+    max-width: 100%;
+}
+
+#experience-form textarea {
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto 50px auto;
+}
+
+.story-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.story-col {
+    padding: 5px;
+}
+
+.story-col img {
+    width: 450px;
+    height: 450px;
+}
+
+#news {
+    display: flex;
+}

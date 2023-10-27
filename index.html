@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Amy's Space Exploration & Astronomy Story</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -20,39 +21,43 @@
     </header>
 
     <main>
-        <section id="mars">
-            <article>
-                <h2>Mar's Results for NASA's InSight Lander</h2>
-                <p>On February 24, 2020, the researchers released the intital results for
-                    NASA's InSight lander on Mars. Covering the first 10 months of the
-                    mission, the findings have stated with the conclusion that Mars is
-                    seismically active. There were 174 marsquakes recorded from Febuary-
-                    September 2019 and the scientists were able to trace two of the
-                    strongest to Cerberus Fossae. Suzanne Smrekar, who is the deputy
-                    principal investigator for Insight has stated that "this young region
-                    has undergone volcanism and other geologic changes in the last 20 million
-                    to 25 million years." She also stated that Mars' surface is on average
-                    several billion years old.
+        <section id="mars" class="container">
+            <article class="story-row">
+                <div class="story-col">
+                    <figure>
+                        <img src="img/mars-surface_711x400.jpeg" title="Mars"
+                            alt="A view of what Mars looks like from the surface">
+                        <figcaption>What Mars looks like inside.</figcaption>
+                    </figure>
+                </div>
+                <div class="story-col">
+                    <h2>Mar's Results for NASA's InSight Lander</h2>
+                    <p>On February 24, 2020, the researchers released the intital results for
+                        NASA's InSight lander on Mars. Covering the first 10 months of the
+                        mission, the findings have stated with the conclusion that Mars is
+                        seismically active. There were 174 marsquakes recorded from Febuary-
+                        September 2019 and the scientists were able to trace two of the
+                        strongest to Cerberus Fossae. Suzanne Smrekar, who is the deputy
+                        principal investigator for Insight has stated that "this young region
+                        has undergone volcanism and other geologic changes in the last 20 million
+                        to 25 million years." She also stated that Mars' surface is on average
+                        several billion years old.
 
-                <p>Fun Facts about <a
-                        href="https://www.littlehouseofscience.com/20_fascinating__fun_science_facts_planet_mars">Mars</a>:
-                </p>
-                <ul>
-                    <li>Known as the Red Planet.</li>
-                    <li>Named after the Roman god of war.</li>
-                    <li>It has 2 moons called Deimos and Phobos.</li>
-                    <li>A day on Mars lasts 24 hours and 37 minutes.</li>
-                </ul>
-                </p>
-                <figure>
-                    <img src="img/mars-surface_711x400.jpeg" title="Mars"
-                        alt="A view of what Mars looks like from the surface">
-                    <figcaption>What Mars looks like inside.</figcaption>
-                </figure>
+                    <p>Fun Facts about <a
+                            href="https://www.littlehouseofscience.com/20_fascinating__fun_science_facts_planet_mars">Mars</a>:
+                    </p>
+                    <ul>
+                        <li>Known as the Red Planet.</li>
+                        <li>Named after the Roman god of war.</li>
+                        <li>It has 2 moons called Deimos and Phobos.</li>
+                        <li>A day on Mars lasts 24 hours and 37 minutes.</li>
+                    </ul>
+                    </p>
+                </div>
             </article>
         </section>
 
-        <section id="venus">
+        <section id="venus" class="container">
             <article>
                 <h2>Venus: The Second Active Planet</h2>
                 <p>On July 20, 2021, a paper in Nature Geoscience added evidence that there was
@@ -93,7 +98,7 @@
 
     <aside>
         <h2>Thoughts on this story?</h2>
-        <form action="https://api.sheetmonkey.io/form/v4PxP7wnWCyZb1TDQur9tU" method="post">
+        <form action="https://api.sheetmonkey.io/form/v4PxP7wnWCyZb1TDQur9tU" method="post" id="experience-form">
             <label for="name">Name: </label>
             <input type="text" name="name" id="name" required placeholder="Type your name"><br><br>
             <label for="email">Email address: </label>
