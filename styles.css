@@ -2,7 +2,8 @@ body {
     font-family: sans-serif;
 }
 
-h1, footer {
+h1,
+footer {
     text-align: center;
 }
 
@@ -37,4 +38,42 @@ header img {
 
 #news {
     display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    background-color: rgb(51, 113, 248);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+nav li {
+    list-style-type: none;
+
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a:link {
+    color: #121212;
+}
+
+
+nav a:visited {
+    color: #121212;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: white;
+}
+
+/* selected link */
+nav a:active {
+    color: white;
 }
